@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://BhaskarGanji:$HF_TOKEN@huggingface.co/spaces/BhaskarGanji/InsightFlow main
+        run: git push --force https://BhaskarGanji:$HF_TOKEN@huggingface.co/spaces/BhaskarGanji/InsightFlow main
