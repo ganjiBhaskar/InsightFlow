@@ -1,0 +1,10 @@
+pandas
+numpy
+seaborn
+matplotlib
+statsmodels
+scikit-learn
+streamlit
+langchain-huggingface
+fpdf
+python-dotenv
